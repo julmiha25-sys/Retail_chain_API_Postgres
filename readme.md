@@ -1,6 +1,6 @@
 **Разработка проекта «Генерации файлов с продажами, загрузка данных в БД Postgres, создание дашборда в Metabase**
 
-1.	На сервере Ubuntu (у меня виртуальный) cоздаем папку  Торговая_сеть_API_Postgres (например, C:\Users\admin\source\repos\Торговая_сеть_API_Postgres>
+1.	На сервере Ubuntu (у меня виртуальный) cоздаем папку  Торговая_сеть_API_Postgres (например, C:\Users\admin\source\repos\Торговая_сеть_API_Postgres>)
 
 2.	Копируем в нее файлы: .gitignor, config.ini, generate-sales.py, pgbd.py, requirements.txt 
 
