@@ -25,13 +25,13 @@ _**(venv) vboxuser@Ubuntu:~/Documents/Retail_chain_API_Postgres$ pip install -r 
 <img width="675" height="302" alt="image" src="https://github.com/user-attachments/assets/252a18f4-7e93-48bd-b989-35d41285ed86" />
 <img width="675" height="302" alt="image" src="https://github.com/user-attachments/assets/583fc01f-7a79-4f3e-b8fb-e3a0693261ec" />
 
-7.	Таблицу shop заполним произвольными данными.
+7.	Таблицу shop заполняем произвольными данными.
 
 8. Установливаем все необходимые для проекта библиотеки (pandas, pg8000) через pip install.
 
 9. Запускаем скрипт:  C:\Users\admin\source\repos\Торговая_сеть_API_Postgres> python generate-sales.py
     
-Появляется папка data с файлами формата 10_1.csv. После успешной загрузки данных в БД эти файлы (только эти по формату) удаляются. Под успешной загрузкой понимается и в.ч. наличие дубликатов (т.е. идет проверка на дубликаты). Неуспешная загрузка: отсутствие  доступа к БД, не прошла авторизация, нет такой БД, нет таких таблиц.
+   Появляется папка data с файлами формата 10_1.csv. После успешной загрузки данных в БД эти файлы (только эти по формату) удаляются. Под успешной загрузкой понимается и в.ч. наличие дубликатов (т.е. идет проверка на дубликаты). Неуспешная загрузка: отсутствие  доступа к БД, не прошла авторизация, нет такой БД, нет таких таблиц.
 
 <img width="454" height="398" alt="image" src="https://github.com/user-attachments/assets/823a4a4c-1256-4da2-957c-b18dacd423b6" />
 <img width="438" height="423" alt="image" src="https://github.com/user-attachments/assets/9e139931-7e17-42a1-980e-ebc2afb38133" />
@@ -40,7 +40,7 @@ _**(venv) vboxuser@Ubuntu:~/Documents/Retail_chain_API_Postgres$ pip install -r 
  
 <img width="974" height="387" alt="image" src="https://github.com/user-attachments/assets/6698b1a6-0c71-4c4a-8d99-7dae9ad77836" />
 
-При наличии ошибок – они будут записаны в лог:
+    При наличии ошибок – они будут записаны в лог:
 
 <img width="758" height="109" alt="image" src="https://github.com/user-attachments/assets/6296e62d-8e82-469b-a1d5-610ecf235814" />
 
