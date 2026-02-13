@@ -61,7 +61,7 @@ def generate_file():
                 shop_cash_checks[shop][cash]=pd.DataFrame(cash_checks_list)  # Добавление этого списка в виде  датафрейма  в словарь магазина-кассы 
                 shop_num=shop.replace('Shop_', '') # Считывание номера магазина
                 cash_num=cash.replace('Cash_', '') # Считывание номера кассы
-                filename=f'data/{shop_num}_{cash_num}.csv' # Формирование имени файла 
+                filename = os.path.join(dirname,f'data/{shop_num}_{cash_num}.csv') # Формирование имени файла 
                 shop_cash_checks[shop][cash].to_csv(filename, index=False, encoding='utf-8') # Формирование файла
     
 # Функция для загрузки файлов продаж csv в единый датафрейм для загрузки в БД Postgres
