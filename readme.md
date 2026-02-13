@@ -38,7 +38,7 @@ _**(venv) vboxuser@Ubuntu:~/Documents/Retail_chain_API_Postgres$ pip install -r 
 
 10. Проверяем наличие строк в DBeaver и смотрим лог ошибок db_errors.log:
  
-<img width="974" height="387" alt="image" src="https://github.com/user-attachments/assets/6698b1a6-0c71-4c4a-8d99-7dae9ad77836" />
+<img width="1407" height="611" alt="image" src="https://github.com/user-attachments/assets/cc138b38-ed9c-4eec-8e85-916cb0e208f5" />
 
     При наличии ошибок – они будут записаны в лог:
 
