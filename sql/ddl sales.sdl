@@ -1,0 +1,23 @@
+-- public.sales определение
+
+-- Drop table
+
+-- DROP TABLE public.sales;
+
+CREATE TABLE public.sales (
+	shop_id int4 NOT NULL,
+	cash_id varchar NOT NULL,
+	doc_id varchar NOT NULL,
+	item varchar NOT NULL,
+	category varchar NOT NULL,
+	amount int4 NOT NULL,
+	price int4 NOT NULL,
+	discount int4 NULL,
+	CONSTRAINT sales_unique UNIQUE (shop_id, cash_id, doc_id, item, category, amount, price, discount)
+);
+
+
+-- public.sales внешние включи
+
+ALTER TABLE public.sales ADD CONSTRAINT sales_shop_fk FOREIGN KEY (shop_id) REFERENCES public.shop(id) ON UPDATE CASCADE;
+

@@ -1,0 +1,13 @@
+-- public.shop определение
+
+-- Drop table
+
+-- DROP TABLE public.shop;
+
+CREATE TABLE public.shop (
+	id int4 NOT NULL,
+	"name" varchar NOT NULL,
+	adress varchar NOT NULL,
+	CONSTRAINT shop_pk PRIMARY KEY (id)
+);
+
