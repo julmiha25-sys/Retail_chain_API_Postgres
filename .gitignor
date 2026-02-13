@@ -1,0 +1,20 @@
+﻿# Виртуальное окружение
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Файлы Visual Studio
+*.sln
+*.pyproj
+.vs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
