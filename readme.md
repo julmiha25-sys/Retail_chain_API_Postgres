@@ -40,7 +40,7 @@ _**(venv) vboxuser@Ubuntu:~/Documents/Retail_chain_API_Postgres$ pip install -r 
  
 <img width="1407" height="611" alt="image" src="https://github.com/user-attachments/assets/cc138b38-ed9c-4eec-8e85-916cb0e208f5" />
 
-    При наличии ошибок – они будут записаны в лог:
+При наличии ошибок – они будут записаны в лог:
 
 <img width="758" height="109" alt="image" src="https://github.com/user-attachments/assets/6296e62d-8e82-469b-a1d5-610ecf235814" />
 
