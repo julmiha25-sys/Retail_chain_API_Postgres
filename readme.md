@@ -27,7 +27,7 @@ _**(venv) vboxuser@Ubuntu:~/Documents/Retail_chain_API_Postgres$ pip install -r 
 
 7.	Таблицу shop заполним произвольными данными.
 
-8. Установим все необходимые для проекта библиотеки (pandas, pg8000) через pip install.
+8. Установливаем все необходимые для проекта библиотеки (pandas, pg8000) через pip install.
 
 9. Запускаем скрипт:  C:\Users\admin\source\repos\Торговая_сеть_API_Postgres> python generate-sales.py
     
